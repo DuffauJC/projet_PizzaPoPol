@@ -1,0 +1,2 @@
+export const MODIFY_PANIER = "MODIFY_PANIER";
+export const CLEAN_PANIER = "CLEAN_PANIER";

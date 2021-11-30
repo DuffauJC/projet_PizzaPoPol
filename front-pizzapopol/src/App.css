@@ -1,0 +1,983 @@
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url('assets/images/plan-travail-lg.jpg');
+  background-attachment: fixed;
+}
+
+.box-shadow {
+  -moz-box-shadow: 2px 2px 5px 2px #9b9b9b;
+  -webkit-box-shadow: 2px 2px 5px 2px #9b9b9b;
+  -o-box-shadow: 2px 2px 5px 2px #9b9b9b;
+  box-shadow: 2px 2px 5px 2px #9b9b9b;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=134, Strength=5);
+}
+
+.App {
+  text-align: center;
+  font-family: 'Playfair Display',
+  serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* version mobile     375 px ***************************** */
+/* main ****************************************************** */
+
+main {
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.errorMsg {
+  color: red;
+  padding: 10px;
+}
+
+.successMsg {
+  color: green;
+  padding: 10px;
+}
+
+/* header ***************************************************/
+
+.header-nav {
+  background-color: #005A2A;
+  position: fixed;
+  width: 100%;
+  font-size: 15px;
+}
+
+.header-nav img {
+  max-height: 80px;
+  padding: 5px;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+}
+
+.list li {
+  margin: 5px;
+}
+
+.list {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+/* home ********************** **********************/
+
+.home-img1 {
+  background-image: url('assets/images/home-1.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+.home-img2 {
+  background-image: url('assets/images/home-2.jpg');
+  background-position: center;
+  width: 600px;
+  height: 420px;
+}
+
+.home-img3 {
+  background-image: url('assets/images/home-3.jpg');
+  background-position: center;
+  width: 600px;
+  height: 420px;
+  margin-top: 100px;
+}
+
+.home-1 {
+  padding-top: 90px;
+  color: white;
+  font-style: italic;
+}
+
+.home-2,
+.home-3,
+.frame {
+  margin-top: 50px;
+}
+
+.home-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-text {
+  width: 600px;
+  height: 420px;
+}
+
+.home-text-1 {
+  width: 600px;
+  height: 550px;
+}
+
+.home-text h2,
+.home-text-1 h2 {
+  margin-bottom: 40px;
+  text-decoration: underline;
+  color: red;
+  font-style: italic;
+}
+
+.home-text-1 h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.home-text-1 a {
+  text-decoration: none;
+  color: red;
+}
+
+.frame {
+  padding-top: 150px;
+}
+
+.frame iframe {
+  width: 100%;
+  height: 200px;
+  border: 0;
+}
+
+
+/* formulaires du site  ************************** ***********************/
+
+.user-form {
+  flex-direction: column;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 10px 2% 20px 2%;
+  font-size: 15px;
+}
+
+.user-form input {
+  display: block;
+  width: 87%;
+  margin: auto;
+  margin-top: 10px;
+  height: 32px;
+  border-radius: 12px;
+  border: 1px solid #ffd3d3;
+  padding-left: 3%;
+  outline: none;
+}
+
+.user-form label {
+  text-align: left;
+}
+
+.user-form select {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  height: 32px;
+  border-radius: 12px;
+  border: 1px solid #ffd3d3;
+  padding-left: 3%;
+  outline: none;
+}
+
+.user-form textarea {
+  display: block;
+  width: 87%;
+  margin: auto;
+  margin-top: 10px;
+  min-height: 70px;
+  border-radius: 12px;
+  border: 1px solid #ffd3d3;
+  padding-left: 3%;
+  outline: none;
+}
+
+.user-form input[type="submit"] {
+  cursor: pointer;
+  background-color: red;
+  width: 50%;
+  color: white;
+}
+
+.login-forgot {
+  margin-top: 30px;
+}
+
+.login-forgot a {
+  text-decoration: none;
+  color: #005A2A;
+}
+
+/* carte ********************************************* ***********/
+
+.carte h2,
+h3 {
+  color: red;
+}
+
+.carte-1 {
+  margin-bottom: 100px;
+}
+
+.carte-title {
+  margin-top: 50px;
+}
+
+.carte-produit {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+
+.carte-antipasti-img {
+  background-image: url('assets/images/antipasti.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-pizza-rouge-img {
+  background-image: url('assets/images/pizza-rouge.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-pizza-blanche-img {
+  background-image: url('assets/images/pizza-blanche.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-dessert-img {
+  background-image: url('assets/images/dessert.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-vin-rouge-img {
+  background-image: url('assets/images/vin-rouge.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-vin-blanc-img {
+  background-image: url('assets/images/vin-blanc.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-vin-rose-img {
+  background-image: url('assets/images/vin-rose.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-liqueur-img {
+  background-image: url('assets/images/liqueur.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-froid-img {
+  background-image: url('assets/images/froid.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+.carte-chaud-img {
+  background-image: url('assets/images/chaud.png');
+  background-position: center;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+
+/* produit-component ************* *******************************/
+
+.produit a {
+  text-decoration: none;
+  color: black;
+}
+.produit i {
+  cursor: pointer;
+  margin: 0px 5px 0px 5px;
+  font-size: 29px;
+}
+.produit {
+  height: 300px;
+  width: 350px;
+  margin: 20px;
+}
+
+.produit h3 {
+  padding-bottom: 20px;
+}
+
+.description {
+  height: 130px;
+}
+
+.price {
+  padding: 20px;
+  color: #005A2A;
+}
+
+.produit form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produit form input {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  margin: 0px 10px 0px 10px;
+}
+
+.add-panier {
+  margin-left: 10px;
+}
+
+.ajout-panier {
+  color: white;
+  cursor: pointer;
+  border: none;
+  background-color: #005A2A;
+  padding: 5px;
+}
+
+/* panier ******************************************************************** */
+
+.panier h2 {
+  margin-bottom: 30px;
+}
+
+.panier p {
+  color: red;
+}
+
+
+.panierTable {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 15px 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.panierTable thead {
+  color: #005A2A;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.panierTable td {
+  padding: 2px;
+}
+
+.prix-total {
+  color: red;
+  margin-right: 20px;
+}
+
+.panier-horaire {
+  color: #005A2A;
+  margin-right: 20px;
+}
+
+.trash-panier {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.trash-panier i {
+  color: red;
+  font-size: 20px;
+}
+
+.trash:hover {
+  cursor: pointer;
+}
+
+.panier-form {
+  width: 50%;
+  margin: auto;
+  border-radius: 12px;
+  padding: 10px 2% 20px 2%;
+}
+
+.panier-form input {
+  display: block;
+  width: 70%;
+  height: 20px;
+  border-radius: 12px;
+  border: 1px solid #ffd3d3;
+  padding-left: 3%;
+  outline: none;
+  font-size: 13px;
+}
+
+
+.form-flex {
+  width: 300px;
+  margin-top: 10px;
+  display: flex;
+  text-align: left;
+  justify-content: left;
+}
+
+/* stripe payment*********************************** */
+
+
+.paymentPart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paymentPart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paymentPart span {
+  display: block;
+  width: 50%;
+  color: #FFBD2F;
+  font-size: 23px;
+  text-shadow: 0 1px 0 black, 0 -1px 0 black;
+}
+
+.paymentPart form {
+  width: 90%;
+}
+
+.StripeElement {
+  padding: 0;
+  border-style: none;
+  background-color: #FFBD2F;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #FFBD2F;
+  border-radius: 4px;
+}
+
+.pay {
+  white-space: nowrap;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background-color: #005A2A;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  margin-top: 20px;
+}
+
+.pay:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: red;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+}
+
+/* success ******************************* */
+
+.success p {
+  padding: 10px;
+}
+
+.success a {
+  color: red;
+  text-decoration: none;
+}
+
+
+
+/* admin ************************************* */
+
+.admin-flex {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.admin h2 {
+  padding-bottom: 40px;
+}
+
+.admin i {
+  font-size: 50px;
+}
+
+.admin a {
+  text-decoration: none;
+  color: rgb(71, 67, 63);
+}
+
+.admin-1 {
+  cursor: pointer;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  background-color: #b9ffda;
+}
+
+.admin-2 {
+  cursor: pointer;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  background-color: #fb6161;
+}
+
+.admin-3 {
+  cursor: pointer;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  background-color: #af7800;
+}
+
+.admin-4 {
+  cursor: pointer;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  background-color: #ff9d41;
+}
+
+.admin-5 {
+  cursor: pointer;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+}
+
+/* admin - produit (antipasti,pizza,dessert,boisson) *********************************** */
+.produit-list h2 {
+  padding-bottom: 30px;
+}
+.produit-list i{
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
+}
+.produit-del{
+  color: red;
+}
+.produit-list a {
+  text-decoration: none;
+  color: #005A2A;
+  margin: 5px;
+}
+
+.produit-list button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.admin-retour {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.addProduit {
+  color: #005A2A;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.backProduit {
+  color: red;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.tableProduit {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 13px;
+}
+
+.tableProduit thead {
+  color: #005A2A;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.tableProduit td {
+  padding: 2px;
+}
+
+/* page 404 **************************** */
+.notFound {
+  background-image: url('assets/images/404.jpg');
+  background-position: center;
+  width: 100%;
+  height: 420px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* footer ******************************* */
+.footer {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.footer p {
+  padding-top: 10px;
+}
+
+.footer a {
+  color: red;
+  text-decoration: none;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+/* responsive ************ */
+/* A partir de 768px de largeur (point de rupture) TABLETTE */
+@media screen and (min-width: 768px) {
+
+  /* header ************************/
+  .header-nav {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .header-nav img {
+    max-height: 90px;
+    padding: 5px;
+  }
+
+  .list li {
+    margin: 15px;
+  }
+
+  /* main ******************** */
+  main {
+    padding-top: 120px;
+  }
+
+  /* home********************* */
+  .home-img3 {
+    margin-top: 0;
+  }
+
+  .frame {
+    padding-top: 0;
+  }
+
+  /* panier ***************** */
+  .panierTable {
+
+    width: 85%;
+
+  }
+
+  /* user-form ********** */
+  .user-form {
+    width: 80%;
+  }
+
+  /* produit ********************** */
+  .produit {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+  }
+
+  /* admin *********** */
+  .admin-1 {
+    width: 200px;
+  }
+
+  .admin-2 {
+    width: 200px;
+  }
+
+  .admin-3 {
+    width: 200px;
+  }
+
+  .admin-4 {
+    width: 200px;
+  }
+
+  .admin-5 {
+    width: 200px;
+  }
+
+  /* admin-produit **********/
+  .tableProduit {
+    font-size: 15px;
+  }
+
+  .tableProduit thead {
+    font-size: 18px;
+  }
+
+  /* user form ********** */
+  .user-form {
+    font-size: 18px;
+  }
+
+  /* panier ************* */
+  .panier-form input {
+    font-size: 15px;
+  }
+
+  .panierTable thead {
+    font-size: 18px;
+  }
+}
+
+
+
+
+/* A partir de 1280px de largeur (point de rupture) ORDINATEUR */
+@media screen and (min-width: 1280px) {
+/* header ********** */
+  .header-nav img {
+    max-height: 120px;
+    padding: 5px;
+  }
+  /* main ************ */
+  main {
+    padding-top: 150px;
+  }
+  /* carte ************* */
+  .carte-1 {
+    margin-bottom: 100px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .carte-produit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .carte-antipasti-img {
+    width: 80%;
+  }
+
+  .carte-pizza-rouge-img {
+    width: 80%;
+  }
+
+  .carte-pizza-blanche-img {
+    width: 80%;
+  }
+
+  .carte-dessert-img {
+    width: 80%;
+  }
+
+  .carte-vin-rouge-img {
+    width: 80%;
+  }
+
+  .carte-vin-blanc-img {
+    width: 80%;
+  }
+
+  .carte-vin-rose-img {
+    width: 80%;
+  }
+
+  .carte-liqueur-img {
+    width: 80%;
+  }
+
+  .carte-froid-img {
+    width: 80%;
+  }
+
+  .carte-chaud-img {
+    width: 80%;
+  }
+  /* admin *********** */
+  .admin-1 {
+    width: 250px;
+  }
+
+  .admin-2 {
+    width: 250px;
+  }
+
+  .admin-3 {
+    width: 250px;
+  }
+
+  .admin-4 {
+    width: 250px;
+  }
+
+  .admin-5 {
+    width: 250px;
+  }
+
+  /* paiement ********** */
+  .paymentPart form {
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
